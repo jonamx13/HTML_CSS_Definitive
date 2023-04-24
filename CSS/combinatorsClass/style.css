@@ -4,6 +4,16 @@
 } */
 
 /**General sibling*/
-h2 ~ p {
+/* h2 ~ p {
+    color: red;
+} */
+
+/**Child*/ /*inherits to direct child*/
+/* div > p {
+    color: red;
+} */
+
+/**Descendant*/ /**Child*/ /*inherits to every tag inside*/
+div p {
     color: red;
 }
