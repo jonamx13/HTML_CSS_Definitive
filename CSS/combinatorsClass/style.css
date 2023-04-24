@@ -2,3 +2,8 @@
 /* h2 + p {
     color: red;
 } */
+
+/**General sibling*/
+h2 ~ p {
+    color: red;
+}
