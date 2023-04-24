@@ -7,31 +7,26 @@
     <title>Calendar</title>
 </head>
 <body>
-    <!-- <form action="">
-        <label for="hour">
-            <span>Hour</span>
-            <input type="time" id="hour" name="hour">
-        </label>
-        <label for="day">
-            <span>Day</span>
-            <input type="date" id="day" name="day">
-        </label>
-        <label for="week">
-            <span>Week</span>
-            <input type="week" id="week" name="week">
-        </label>
-        <label for="month">
-            <span>Month</span>
-            <input type="month" id="month" name="month">
-        </label>
-        <input type="submit">
-    </form> -->
-    <form action="">
-        <label for="calendario">
-            <span>Calendario</span>
-            <input type="datetime-local" id="calendario" name="calendario">
-        </label>
-        <input type="submit">
-    </form>
+    <main>
+        <form action="">
+            <label for="name">
+                <span>What's your name?</span>
+                <input type="text" name="name" id="name" autocomplete="name" required>
+            </label>
+            <label for="e-mail">
+                <span>What's your e-mail?</span>
+                <input type="email" name="e-mail" id="e-mail" autocomplete="email" required>
+            </label>
+            <label for="country">
+                <span>What country do you live in?</span>
+                <input type="text" name="country" id="country" autocomplete="country" required>
+            </label>
+            <label for="pc">
+                <span>What's your country postal code?</span>
+                <input type="text" name="pc" id="pc" autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
 </body>
 </html>
