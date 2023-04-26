@@ -1,0 +1,5 @@
+/*? Not a very good practice because of perfomance issues*/
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
+html {
+    font-family: 'Roboto', sans-serif;
+}
